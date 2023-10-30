@@ -1,0 +1,25 @@
+function companyDropdown() {
+    document.getElementById("js-company__dropdownFunction").classList.toggle("js-showContent");
+    document.getElementById("companyChevronRotate").classList.toggle("js-rotateChevron");
+
+}
+function resellerDropdown() {
+    document.getElementById("js-reseller__dropdownFunction").classList.toggle("js-showContent");
+    document.getElementById("resellerChevronRotate").classList.toggle("js-rotateChevron");
+
+}
+function othersDropdown() {
+    document.getElementById("js-others__dropdownFunction").classList.toggle("js-showContent");
+    document.getElementById("othersChevronRotate").classList.toggle("js-rotateChevron");
+
+}
+function supportDropdown() {
+    document.getElementById("js-support__dropdownFunction").classList.toggle("js-showContent");
+    document.getElementById("supportChevronRotate").classList.toggle("js-rotateChevron");
+
+}
+function layananDropdown() {
+    document.getElementById("js-layanan__dropdownFunction").classList.toggle("js-showContent");
+    document.getElementById("layananChevronRotate").classList.toggle("js-rotateChevron");
+
+}
